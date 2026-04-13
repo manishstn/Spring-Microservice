@@ -1,0 +1,14 @@
+### POST request to example server
+POST http://localhost:4000/patients/create
+Content-Type: application/json
+
+{
+  "name": "Manish",
+  "email": "manishtest.com",
+  "address": "123 main Address",
+  "dateOfBirth": "1999-02-12",
+  "registeredDate": "2026-04-12"
+}
+
+
+###
